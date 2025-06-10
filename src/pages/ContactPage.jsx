@@ -4,6 +4,7 @@ import './ContactPage.css';
 
 const ContactPage = () => {
   return (
+    
     <div className="page-wrapper">
       <div className="contact-wrapper">
         <h1 className="page-title">Contact Us</h1>
@@ -67,6 +68,7 @@ const ContactPage = () => {
           <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
         </section>
       </div>
+      
     </div>
   );
 };

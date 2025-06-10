@@ -6,13 +6,14 @@ import CoursesPage from './pages/CoursesPage';
 import AdmissionsPage from './pages/AdmissionsPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
-import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
+// import Header from '../Components/Header/Header';
+
+
 
 const App = () => {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <div className="app-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -23,7 +24,7 @@ const App = () => {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 };
