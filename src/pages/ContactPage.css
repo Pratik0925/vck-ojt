@@ -1,0 +1,75 @@
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 100px; /* below header */
+  padding-bottom: 40px; /* above footer */
+  background-color: #fff8b3; /* yellow background consistent with your site */
+  overflow-x: hidden;
+}
+
+.contact-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 3rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 80vh;
+  margin: auto;
+  color: #333;
+}
+
+.page-title {
+  color: #1e90ff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.contact-section {
+  margin-bottom: 2.5rem;
+}
+
+.contact-section h2 {
+  color: #1e90ff;
+  margin-bottom: 0.3rem;
+}
+
+.contact-section hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  white-space: pre-line; /* To respect line breaks */
+  line-height: 1.6;
+}
+
+.map-link {
+  color: #1e90ff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.map-link:hover {
+  color: #0b5ed7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    padding: 1.5rem 1.5rem;
+    max-height: none;
+  }
+}
